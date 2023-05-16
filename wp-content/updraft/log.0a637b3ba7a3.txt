@@ -1,0 +1,554 @@
+0000.006 (0) Opened log file at time: Tue, 16 May 2023 07:20:34 +0000 on http://localhost:8888/corporate
+0000.401 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 7.4.12 (apache2handler, Darwin MacBook-Air-2.local 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:06:51 PST 2021; root:xnu-7195.81.3~1/RELEASE_ARM64_T8101 x86_64) MySQL: 5.7.32 (max packet size=4194304) WPLANG: ja Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 57.2M | 22.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.505 (0) Free space on disk containing Updraft's temporary directory: 13847.4 MB
+0000.559 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.572 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.609 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1683037804, seconds_ago=1183831)
+0000.648 (0) Set semaphore last lock (f) time to 2023-05-16 07:20:35
+0000.659 (0) Semaphore lock (f) complete
+0000.676 (0) Backup run: resumption=0, nonce=0a637b3ba7a3, file_nonce=0a637b3ba7a3 begun at=1684221634 (1s ago), job type=backup
+0000.687 (0) Scheduling a resumption (1) after 300 seconds (1684221935) in case this run gets aborted
+0000.720 (0) Checking if we have a zip executable available
+0000.733 (0) Testing: /usr/bin/zip
+0000.858 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.122 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.129 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.139 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.150 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.427 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.429 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.452 (0) Working binary zip found: /usr/bin/zip
+0001.455 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.456 (0) Creation of backups of directories: beginning
+0001.460 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.797 (0) Total entities for the zip file: 894 directories, 5539 files (0 skipped as non-modified), 161.5 MB
+0002.807 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.810 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.813 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.815 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.821 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.831 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.838 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 5539 files batched, 656 (656) added so far); re-opening (prior size: 0 KB)
+0006.387 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: size is now: 6.60 MB
+0006.399 (0) A useful amount of data was added after this amount of zip processing: 5.3 s (normalised: 5.3 s, rate: 4837.4 KB/s)
+0006.412 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.2927160263062, normalised_time=5.2921449097462, max_time=6.3984320163727, data points known=1, old_max_bytes=26214400, new_max_bytes=29720728)
+0006.419 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 700 files added (on-disk size: 6735.4 KB)
+0006.426 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 800 files added (on-disk size: 6735.4 KB)
+0006.429 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 900 files added (on-disk size: 6735.4 KB)
+0006.432 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1000 files added (on-disk size: 6735.4 KB)
+0006.434 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1100 files added (on-disk size: 6735.4 KB)
+0006.437 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1200 files added (on-disk size: 6735.4 KB)
+0006.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 28.3 MB added on this batch (30.1 MB, 5539 files batched, 623 (1279) added so far); re-opening (prior size: 6735.4 KB)
+0009.937 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: size is now: 18.30 MB
+0009.940 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.6 s, rate: 8042.4 KB/s)
+0009.941 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.8341679573059, normalised_time=3.6088887187478, max_time=9.9345610141754, data points known=1, old_max_bytes=29720728, new_max_bytes=49412542)
+0009.943 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1300 files added (on-disk size: 18696.2 KB)
+0009.946 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1400 files added (on-disk size: 18696.2 KB)
+0009.949 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1500 files added (on-disk size: 18696.2 KB)
+0009.953 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1600 files added (on-disk size: 18696.2 KB)
+0009.956 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1700 files added (on-disk size: 18696.2 KB)
+0009.959 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1800 files added (on-disk size: 18696.2 KB)
+0009.962 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 1900 files added (on-disk size: 18696.2 KB)
+0009.965 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2000 files added (on-disk size: 18696.2 KB)
+0009.967 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2100 files added (on-disk size: 18696.2 KB)
+0009.970 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2200 files added (on-disk size: 18696.2 KB)
+0009.972 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.5 MB, 5539 files batched, 1001 (2280) added so far); re-opening (prior size: 18696.2 KB)
+0011.243 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: size is now: 29.70 MB
+0011.246 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2300 files added (on-disk size: 30453.2 KB)
+0011.249 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2400 files added (on-disk size: 30453.2 KB)
+0011.252 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2500 files added (on-disk size: 30453.2 KB)
+0011.254 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2600 files added (on-disk size: 30453.2 KB)
+0011.256 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2700 files added (on-disk size: 30453.2 KB)
+0011.259 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2800 files added (on-disk size: 30453.2 KB)
+0011.261 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 2900 files added (on-disk size: 30453.2 KB)
+0011.264 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3000 files added (on-disk size: 30453.2 KB)
+0011.267 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3100 files added (on-disk size: 30453.2 KB)
+0011.269 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3200 files added (on-disk size: 30453.2 KB)
+0011.271 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.3 MB, 5539 files batched, 1001 (3281) added so far); re-opening (prior size: 30453.2 KB)
+0011.891 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: size is now: 39.30 MB
+0011.893 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3300 files added (on-disk size: 40292.1 KB)
+0011.896 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3400 files added (on-disk size: 40292.1 KB)
+0011.899 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3500 files added (on-disk size: 40292.1 KB)
+0011.901 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3600 files added (on-disk size: 40292.1 KB)
+0011.904 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3700 files added (on-disk size: 40292.1 KB)
+0011.907 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3800 files added (on-disk size: 40292.1 KB)
+0011.910 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 3900 files added (on-disk size: 40292.1 KB)
+0011.912 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4000 files added (on-disk size: 40292.1 KB)
+0011.914 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4100 files added (on-disk size: 40292.1 KB)
+0011.917 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4200 files added (on-disk size: 40292.1 KB)
+0011.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32.3 MB, 5539 files batched, 1001 (4282) added so far); re-opening (prior size: 40292.1 KB)
+0013.110 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: size is now: 49.50 MB
+0013.112 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4300 files added (on-disk size: 50654.3 KB)
+0013.115 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4400 files added (on-disk size: 50654.3 KB)
+0013.117 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4500 files added (on-disk size: 50654.3 KB)
+0013.120 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4600 files added (on-disk size: 50654.3 KB)
+0013.123 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4700 files added (on-disk size: 50654.3 KB)
+0013.126 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4800 files added (on-disk size: 50654.3 KB)
+0013.128 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 4900 files added (on-disk size: 50654.3 KB)
+0013.131 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5000 files added (on-disk size: 50654.3 KB)
+0013.133 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5100 files added (on-disk size: 50654.3 KB)
+0013.135 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5200 files added (on-disk size: 50654.3 KB)
+0013.138 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.9 MB, 5539 files batched, 1001 (5283) added so far); re-opening (prior size: 50654.3 KB)
+0013.795 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5300 files added (on-disk size: 57952 KB)
+0013.799 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5400 files added (on-disk size: 57952 KB)
+0013.802 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.tmp: 5500 files added (on-disk size: 57952 KB)
+0014.328 (0) Creating zip file manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.list-temp.tmp)
+0014.346 (0) Successfully created zip file manifest (size: 452996)
+0015.520 (0) Created plugins zip (0) - 59921.6 KB in 14.1 s (4263.7 KB/s) (sha1: 45501194246c85c7588bb9b1d702a6bfeea98c0b, sha256: 3cb0ef55cf85ed64b7998bc9b331bf454d2d7876abf214dd42a0fdadc1e01868)
+0015.536 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0015.540 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-4a07dbedb3b81eab559bcb68c4862e74)
+0015.811 (0) FTP: upload attempt: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip -> ftp://knowledgeholder@knowledgeholder.sakura.ne.jp//home/knowledgeholder/www/BK/newsite/backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip
+0015.942 (0) Ftp chunked upload: 0.9 % uploaded
+0015.967 (0) Ftp chunked upload: 1.7 % uploaded
+0015.993 (0) Ftp chunked upload: 2.6 % uploaded
+0016.211 (0) Ftp chunked upload: 3.4 % uploaded
+0016.276 (0) Ftp chunked upload: 5.2 % uploaded
+0016.681 (0) Ftp chunked upload: 6.9 % uploaded
+0016.773 (0) Ftp chunked upload: 10.3 % uploaded
+0016.986 (0) Ftp chunked upload: 13.7 % uploaded
+0017.079 (0) Ftp chunked upload: 17.1 % uploaded
+0017.159 (0) Ftp chunked upload: 20.6 % uploaded
+0017.241 (0) Ftp chunked upload: 24 % uploaded
+0017.323 (0) Ftp chunked upload: 27.4 % uploaded
+0017.405 (0) Ftp chunked upload: 30.8 % uploaded
+0017.484 (0) Ftp chunked upload: 34.3 % uploaded
+0017.566 (0) Ftp chunked upload: 37.7 % uploaded
+0017.646 (0) Ftp chunked upload: 41.1 % uploaded
+0017.729 (0) Ftp chunked upload: 44.5 % uploaded
+0017.807 (0) Ftp chunked upload: 48 % uploaded
+0017.885 (0) Ftp chunked upload: 51.4 % uploaded
+0017.967 (0) Ftp chunked upload: 54.8 % uploaded
+0018.047 (0) Ftp chunked upload: 58.2 % uploaded
+0018.137 (0) Ftp chunked upload: 61.7 % uploaded
+0018.217 (0) Ftp chunked upload: 65.1 % uploaded
+0018.293 (0) Ftp chunked upload: 68.5 % uploaded
+0018.371 (0) Ftp chunked upload: 71.9 % uploaded
+0018.452 (0) Ftp chunked upload: 75.3 % uploaded
+0018.527 (0) Ftp chunked upload: 78.8 % uploaded
+0018.601 (0) Ftp chunked upload: 82.2 % uploaded
+0018.678 (0) Ftp chunked upload: 85.6 % uploaded
+0018.754 (0) Ftp chunked upload: 89 % uploaded
+0018.831 (0) Ftp chunked upload: 92.5 % uploaded
+0018.913 (0) Ftp chunked upload: 95.9 % uploaded
+0018.991 (0) Ftp chunked upload: 99.3 % uploaded
+0019.022 (0) FTP: upload attempt successful (59921.6KB in 3.21s)
+0019.025 (0) Recording as successfully uploaded: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip
+0019.031 (0) Deleting local file: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip: OK
+0019.054 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.345 (0) Total entities for the zip file: 104 directories, 925 files (0 skipped as non-modified), 336.8 MB
+0019.348 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.351 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 47.1 MB added on this batch (122.8 MB, 925 files batched, 193 (193) added so far); re-opening (prior size: 0 KB)
+0020.015 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: size is now: 121.90 MB
+0020.018 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 0.7 s, rate: 65752.9 KB/s)
+0020.020 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9119238853455, normalised_time=0.73387577828729, max_time=20.012385129929, data points known=1, old_max_bytes=49412542, new_max_bytes=209715200)
+0020.035 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 200 files added (on-disk size: 124796.3 KB)
+0020.038 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 300 files added (on-disk size: 124796.3 KB)
+0020.041 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 400 files added (on-disk size: 124796.3 KB)
+0020.044 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 500 files added (on-disk size: 124796.3 KB)
+0020.047 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 600 files added (on-disk size: 124796.3 KB)
+0020.050 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 700 files added (on-disk size: 124796.3 KB)
+0020.053 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.5 MB, 925 files batched, 601 (794) added so far); re-opening (prior size: 124796.3 KB)
+0023.378 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: size is now: 320.90 MB
+0023.382 (0) A useful amount of data was added after this amount of zip processing: 4.3 s (normalised: 4.3 s, rate: 48024.6 KB/s)
+0023.384 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=4.275810956955, normalised_time=4.26448255079, max_time=23.377685070038, data points known=1, max_bytes=209715200)
+0023.385 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 800 files added (on-disk size: 328586.2 KB)
+0023.387 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.tmp: 900 files added (on-disk size: 328586.2 KB)
+0024.798 (0) Creating zip file manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.list-temp.tmp)
+0024.804 (0) Successfully created zip file manifest (size: 56260)
+0032.189 (0) Created themes zip (0) - 341290.4 KB in 13.1 s (25987 KB/s) (sha1: 1e6a333b85426b61410c8b655ff4cdbbec3c496f, sha256: 0cfdac0953dfd69e00a7b6f71bdb37ff2cf5e47a45ae949059987a5ad2481387)
+0032.199 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0032.199 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-4a07dbedb3b81eab559bcb68c4862e74)
+0032.318 (0) FTP: upload attempt: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip -> ftp://knowledgeholder@knowledgeholder.sakura.ne.jp//home/knowledgeholder/www/BK/newsite/backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip
+0032.455 (0) Ftp chunked upload: 0.2 % uploaded
+0032.494 (0) Ftp chunked upload: 0.3 % uploaded
+0032.518 (0) Ftp chunked upload: 0.5 % uploaded
+0032.538 (0) Ftp chunked upload: 0.6 % uploaded
+0032.576 (0) Ftp chunked upload: 0.9 % uploaded
+0032.617 (0) Ftp chunked upload: 1.2 % uploaded
+0032.693 (0) Ftp chunked upload: 1.8 % uploaded
+0032.769 (0) Ftp chunked upload: 2.4 % uploaded
+0032.842 (0) Ftp chunked upload: 3 % uploaded
+0032.917 (0) Ftp chunked upload: 3.6 % uploaded
+0032.994 (0) Ftp chunked upload: 4.2 % uploaded
+0033.073 (0) Ftp chunked upload: 4.8 % uploaded
+0033.154 (0) Ftp chunked upload: 5.4 % uploaded
+0033.232 (0) Ftp chunked upload: 6 % uploaded
+0033.306 (0) Ftp chunked upload: 6.6 % uploaded
+0033.381 (0) Ftp chunked upload: 7.2 % uploaded
+0033.460 (0) Ftp chunked upload: 7.8 % uploaded
+0033.536 (0) Ftp chunked upload: 8.4 % uploaded
+0033.612 (0) Ftp chunked upload: 9 % uploaded
+0033.685 (0) Ftp chunked upload: 9.6 % uploaded
+0033.759 (0) Ftp chunked upload: 10.2 % uploaded
+0033.834 (0) Ftp chunked upload: 10.8 % uploaded
+0033.906 (0) Ftp chunked upload: 11.4 % uploaded
+0033.979 (0) Ftp chunked upload: 12 % uploaded
+0034.052 (0) Ftp chunked upload: 12.6 % uploaded
+0034.126 (0) Ftp chunked upload: 13.2 % uploaded
+0034.202 (0) Ftp chunked upload: 13.8 % uploaded
+0034.276 (0) Ftp chunked upload: 14.4 % uploaded
+0034.350 (0) Ftp chunked upload: 15 % uploaded
+0034.423 (0) Ftp chunked upload: 15.6 % uploaded
+0034.497 (0) Ftp chunked upload: 16.2 % uploaded
+0034.572 (0) Ftp chunked upload: 16.8 % uploaded
+0034.648 (0) Ftp chunked upload: 17.4 % uploaded
+0034.726 (0) Ftp chunked upload: 18 % uploaded
+0034.800 (0) Ftp chunked upload: 18.6 % uploaded
+0034.876 (0) Ftp chunked upload: 19.2 % uploaded
+0034.949 (0) Ftp chunked upload: 19.8 % uploaded
+0035.023 (0) Ftp chunked upload: 20.4 % uploaded
+0035.097 (0) Ftp chunked upload: 21 % uploaded
+0035.170 (0) Ftp chunked upload: 21.6 % uploaded
+0035.245 (0) Ftp chunked upload: 22.2 % uploaded
+0035.318 (0) Ftp chunked upload: 22.8 % uploaded
+0035.391 (0) Ftp chunked upload: 23.4 % uploaded
+0035.466 (0) Ftp chunked upload: 24 % uploaded
+0035.540 (0) Ftp chunked upload: 24.6 % uploaded
+0035.613 (0) Ftp chunked upload: 25.3 % uploaded
+0035.686 (0) Ftp chunked upload: 25.9 % uploaded
+0035.759 (0) Ftp chunked upload: 26.5 % uploaded
+0035.834 (0) Ftp chunked upload: 27.1 % uploaded
+0035.907 (0) Ftp chunked upload: 27.7 % uploaded
+0035.987 (0) Ftp chunked upload: 28.3 % uploaded
+0036.060 (0) Ftp chunked upload: 28.9 % uploaded
+0036.133 (0) Ftp chunked upload: 29.5 % uploaded
+0036.206 (0) Ftp chunked upload: 30.1 % uploaded
+0036.278 (0) Ftp chunked upload: 30.7 % uploaded
+0036.351 (0) Ftp chunked upload: 31.3 % uploaded
+0036.424 (0) Ftp chunked upload: 31.9 % uploaded
+0036.496 (0) Ftp chunked upload: 32.5 % uploaded
+0036.571 (0) Ftp chunked upload: 33.1 % uploaded
+0036.644 (0) Ftp chunked upload: 33.7 % uploaded
+0036.717 (0) Ftp chunked upload: 34.3 % uploaded
+0036.790 (0) Ftp chunked upload: 34.9 % uploaded
+0036.864 (0) Ftp chunked upload: 35.5 % uploaded
+0036.938 (0) Ftp chunked upload: 36.1 % uploaded
+0037.011 (0) Ftp chunked upload: 36.7 % uploaded
+0037.088 (0) Ftp chunked upload: 37.3 % uploaded
+0037.172 (0) Ftp chunked upload: 37.9 % uploaded
+0037.252 (0) Ftp chunked upload: 38.5 % uploaded
+0037.330 (0) Ftp chunked upload: 39.1 % uploaded
+0037.412 (0) Ftp chunked upload: 39.7 % uploaded
+0037.498 (0) Ftp chunked upload: 40.3 % uploaded
+0037.582 (0) Ftp chunked upload: 40.9 % uploaded
+0037.662 (0) Ftp chunked upload: 41.5 % uploaded
+0037.748 (0) Ftp chunked upload: 42.1 % uploaded
+0037.898 (0) Ftp chunked upload: 42.7 % uploaded
+0037.974 (0) Ftp chunked upload: 43.3 % uploaded
+0038.050 (0) Ftp chunked upload: 43.9 % uploaded
+0038.127 (0) Ftp chunked upload: 44.5 % uploaded
+0038.202 (0) Ftp chunked upload: 45.1 % uploaded
+0038.277 (0) Ftp chunked upload: 45.7 % uploaded
+0038.352 (0) Ftp chunked upload: 46.3 % uploaded
+0038.426 (0) Ftp chunked upload: 46.9 % uploaded
+0038.501 (0) Ftp chunked upload: 47.5 % uploaded
+0038.575 (0) Ftp chunked upload: 48.1 % uploaded
+0038.652 (0) Ftp chunked upload: 48.7 % uploaded
+0038.726 (0) Ftp chunked upload: 49.3 % uploaded
+0038.803 (0) Ftp chunked upload: 49.9 % uploaded
+0038.879 (0) Ftp chunked upload: 50.5 % uploaded
+0038.954 (0) Ftp chunked upload: 51.1 % uploaded
+0039.028 (0) Ftp chunked upload: 51.7 % uploaded
+0039.104 (0) Ftp chunked upload: 52.3 % uploaded
+0039.177 (0) Ftp chunked upload: 52.9 % uploaded
+0039.252 (0) Ftp chunked upload: 53.5 % uploaded
+0039.325 (0) Ftp chunked upload: 54.1 % uploaded
+0039.401 (0) Ftp chunked upload: 54.7 % uploaded
+0039.476 (0) Ftp chunked upload: 55.3 % uploaded
+0039.549 (0) Ftp chunked upload: 55.9 % uploaded
+0039.622 (0) Ftp chunked upload: 56.5 % uploaded
+0039.696 (0) Ftp chunked upload: 57.1 % uploaded
+0039.768 (0) Ftp chunked upload: 57.7 % uploaded
+0039.841 (0) Ftp chunked upload: 58.3 % uploaded
+0039.916 (0) Ftp chunked upload: 58.9 % uploaded
+0039.989 (0) Ftp chunked upload: 59.5 % uploaded
+0040.063 (0) Ftp chunked upload: 60.1 % uploaded
+0040.138 (0) Ftp chunked upload: 60.7 % uploaded
+0040.212 (0) Ftp chunked upload: 61.3 % uploaded
+0040.285 (0) Ftp chunked upload: 61.9 % uploaded
+0040.358 (0) Ftp chunked upload: 62.5 % uploaded
+0040.431 (0) Ftp chunked upload: 63.1 % uploaded
+0040.505 (0) Ftp chunked upload: 63.7 % uploaded
+0040.578 (0) Ftp chunked upload: 64.3 % uploaded
+0040.653 (0) Ftp chunked upload: 64.9 % uploaded
+0040.728 (0) Ftp chunked upload: 65.5 % uploaded
+0040.801 (0) Ftp chunked upload: 66.1 % uploaded
+0040.874 (0) Ftp chunked upload: 66.7 % uploaded
+0040.948 (0) Ftp chunked upload: 67.3 % uploaded
+0041.023 (0) Ftp chunked upload: 67.9 % uploaded
+0041.100 (0) Ftp chunked upload: 68.5 % uploaded
+0041.175 (0) Ftp chunked upload: 69.1 % uploaded
+0041.250 (0) Ftp chunked upload: 69.7 % uploaded
+0041.326 (0) Ftp chunked upload: 70.3 % uploaded
+0041.401 (0) Ftp chunked upload: 70.9 % uploaded
+0041.474 (0) Ftp chunked upload: 71.5 % uploaded
+0041.553 (0) Ftp chunked upload: 72.1 % uploaded
+0041.629 (0) Ftp chunked upload: 72.7 % uploaded
+0041.704 (0) Ftp chunked upload: 73.3 % uploaded
+0041.779 (0) Ftp chunked upload: 73.9 % uploaded
+0041.853 (0) Ftp chunked upload: 74.5 % uploaded
+0041.929 (0) Ftp chunked upload: 75.1 % uploaded
+0042.005 (0) Ftp chunked upload: 75.7 % uploaded
+0042.080 (0) Ftp chunked upload: 76.3 % uploaded
+0042.154 (0) Ftp chunked upload: 76.9 % uploaded
+0042.229 (0) Ftp chunked upload: 77.5 % uploaded
+0042.306 (0) Ftp chunked upload: 78.1 % uploaded
+0042.382 (0) Ftp chunked upload: 78.7 % uploaded
+0042.459 (0) Ftp chunked upload: 79.3 % uploaded
+0042.534 (0) Ftp chunked upload: 80 % uploaded
+0042.611 (0) Ftp chunked upload: 80.6 % uploaded
+0042.686 (0) Ftp chunked upload: 81.2 % uploaded
+0042.761 (0) Ftp chunked upload: 81.8 % uploaded
+0042.835 (0) Ftp chunked upload: 82.4 % uploaded
+0042.910 (0) Ftp chunked upload: 83 % uploaded
+0042.982 (0) Ftp chunked upload: 83.6 % uploaded
+0043.057 (0) Ftp chunked upload: 84.2 % uploaded
+0043.131 (0) Ftp chunked upload: 84.8 % uploaded
+0043.204 (0) Ftp chunked upload: 85.4 % uploaded
+0043.278 (0) Ftp chunked upload: 86 % uploaded
+0043.354 (0) Ftp chunked upload: 86.6 % uploaded
+0043.429 (0) Ftp chunked upload: 87.2 % uploaded
+0043.504 (0) Ftp chunked upload: 87.8 % uploaded
+0043.579 (0) Ftp chunked upload: 88.4 % uploaded
+0043.653 (0) Ftp chunked upload: 89 % uploaded
+0043.728 (0) Ftp chunked upload: 89.6 % uploaded
+0043.801 (0) Ftp chunked upload: 90.2 % uploaded
+0043.874 (0) Ftp chunked upload: 90.8 % uploaded
+0043.949 (0) Ftp chunked upload: 91.4 % uploaded
+0044.026 (0) Ftp chunked upload: 92 % uploaded
+0044.103 (0) Ftp chunked upload: 92.6 % uploaded
+0044.178 (0) Ftp chunked upload: 93.2 % uploaded
+0044.253 (0) Ftp chunked upload: 93.8 % uploaded
+0044.328 (0) Ftp chunked upload: 94.4 % uploaded
+0044.403 (0) Ftp chunked upload: 95 % uploaded
+0044.476 (0) Ftp chunked upload: 95.6 % uploaded
+0044.549 (0) Ftp chunked upload: 96.2 % uploaded
+0044.622 (0) Ftp chunked upload: 96.8 % uploaded
+0044.696 (0) Ftp chunked upload: 97.4 % uploaded
+0044.773 (0) Ftp chunked upload: 98 % uploaded
+0044.848 (0) Ftp chunked upload: 98.6 % uploaded
+0044.922 (0) Ftp chunked upload: 99.2 % uploaded
+0044.995 (0) Ftp chunked upload: 99.8 % uploaded
+0045.038 (0) FTP: upload attempt successful (341290.4KB in 12.72s)
+0045.039 (0) Recording as successfully uploaded: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip
+0045.059 (0) Deleting local file: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip: OK
+0045.077 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0045.078 (0) Looking for candidates to backup in: /Users/yoshinoyasushi/Desktop/dev/corporate/wp-content/uploads
+0045.079 (0) finding files: 2022: adding to list (1)
+0045.080 (0) finding files: 2023: adding to list (2)
+0045.080 (0) finding files: wpcf7_uploads: adding to list (3)
+0045.081 (0) finding files: ao_ccss: adding to list (4)
+0045.081 (0) finding files: aios: adding to list (5)
+0045.082 (0) finding files: elementor: adding to list (6)
+0045.082 (0) finding files: 2021: adding to list (7)
+0045.082 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0045.201 (0) Total entities for the zip file: 35 directories, 1961 files (0 skipped as non-modified), 150.7 MB
+0045.205 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0045.208 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0045.210 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0045.212 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0045.215 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0045.217 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0045.220 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0045.222 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0045.225 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0045.227 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0045.227 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (57.4 MB, 1961 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0046.003 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: size is now: 57.20 MB
+0046.008 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1100 files added (on-disk size: 58555.4 KB)
+0046.011 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1200 files added (on-disk size: 58555.4 KB)
+0046.014 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1300 files added (on-disk size: 58555.4 KB)
+0046.016 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1400 files added (on-disk size: 58555.4 KB)
+0046.019 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1500 files added (on-disk size: 58555.4 KB)
+0046.021 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1600 files added (on-disk size: 58555.4 KB)
+0046.024 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1700 files added (on-disk size: 58555.4 KB)
+0046.027 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1800 files added (on-disk size: 58555.4 KB)
+0046.029 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: 1900 files added (on-disk size: 58555.4 KB)
+0046.856 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.tmp: size is now: 150.20 MB
+0046.895 (0) Creating zip file manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.list-temp.tmp)
+0046.902 (0) Successfully created zip file manifest (size: 107682)
+0049.916 (0) Created uploads zip (0) - 153787.1 KB in 4.8 s (31827.4 KB/s) (sha1: 3db2ceb0ebe61da44fe94e97929301d991719524, sha256: fa54bb13b2bf556ff01c15381eca2ce927d463d292cc50d308d12a6d089712ff)
+0049.920 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0049.921 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-4a07dbedb3b81eab559bcb68c4862e74)
+0050.045 (0) FTP: upload attempt: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip -> ftp://knowledgeholder@knowledgeholder.sakura.ne.jp//home/knowledgeholder/www/BK/newsite/backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip
+0050.187 (0) Ftp chunked upload: 0.3 % uploaded
+0050.215 (0) Ftp chunked upload: 0.7 % uploaded
+0050.239 (0) Ftp chunked upload: 1 % uploaded
+0050.262 (0) Ftp chunked upload: 1.3 % uploaded
+0050.304 (0) Ftp chunked upload: 2 % uploaded
+0050.346 (0) Ftp chunked upload: 2.7 % uploaded
+0050.426 (0) Ftp chunked upload: 4 % uploaded
+0050.503 (0) Ftp chunked upload: 5.3 % uploaded
+0050.578 (0) Ftp chunked upload: 6.7 % uploaded
+0050.655 (0) Ftp chunked upload: 8 % uploaded
+0050.733 (0) Ftp chunked upload: 9.3 % uploaded
+0050.808 (0) Ftp chunked upload: 10.7 % uploaded
+0050.883 (0) Ftp chunked upload: 12 % uploaded
+0050.959 (0) Ftp chunked upload: 13.4 % uploaded
+0051.035 (0) Ftp chunked upload: 14.7 % uploaded
+0051.110 (0) Ftp chunked upload: 16 % uploaded
+0051.184 (0) Ftp chunked upload: 17.4 % uploaded
+0051.258 (0) Ftp chunked upload: 18.7 % uploaded
+0051.332 (0) Ftp chunked upload: 20 % uploaded
+0051.405 (0) Ftp chunked upload: 21.4 % uploaded
+0051.480 (0) Ftp chunked upload: 22.7 % uploaded
+0051.554 (0) Ftp chunked upload: 24 % uploaded
+0051.629 (0) Ftp chunked upload: 25.4 % uploaded
+0051.703 (0) Ftp chunked upload: 26.7 % uploaded
+0051.777 (0) Ftp chunked upload: 28 % uploaded
+0051.850 (0) Ftp chunked upload: 29.4 % uploaded
+0051.937 (0) Ftp chunked upload: 30.7 % uploaded
+0052.015 (0) Ftp chunked upload: 32 % uploaded
+0052.090 (0) Ftp chunked upload: 33.4 % uploaded
+0052.164 (0) Ftp chunked upload: 34.7 % uploaded
+0052.239 (0) Ftp chunked upload: 36 % uploaded
+0052.313 (0) Ftp chunked upload: 37.4 % uploaded
+0052.386 (0) Ftp chunked upload: 38.7 % uploaded
+0052.461 (0) Ftp chunked upload: 40 % uploaded
+0052.534 (0) Ftp chunked upload: 41.4 % uploaded
+0052.608 (0) Ftp chunked upload: 42.7 % uploaded
+0052.681 (0) Ftp chunked upload: 44 % uploaded
+0052.756 (0) Ftp chunked upload: 45.4 % uploaded
+0052.830 (0) Ftp chunked upload: 46.7 % uploaded
+0052.904 (0) Ftp chunked upload: 48 % uploaded
+0052.995 (0) Ftp chunked upload: 49.4 % uploaded
+0053.069 (0) Ftp chunked upload: 50.7 % uploaded
+0053.142 (0) Ftp chunked upload: 52 % uploaded
+0053.217 (0) Ftp chunked upload: 53.4 % uploaded
+0053.292 (0) Ftp chunked upload: 54.7 % uploaded
+0053.366 (0) Ftp chunked upload: 56 % uploaded
+0053.441 (0) Ftp chunked upload: 57.4 % uploaded
+0053.515 (0) Ftp chunked upload: 58.7 % uploaded
+0053.591 (0) Ftp chunked upload: 60 % uploaded
+0053.666 (0) Ftp chunked upload: 61.4 % uploaded
+0053.740 (0) Ftp chunked upload: 62.7 % uploaded
+0053.814 (0) Ftp chunked upload: 64 % uploaded
+0053.887 (0) Ftp chunked upload: 65.4 % uploaded
+0053.961 (0) Ftp chunked upload: 66.7 % uploaded
+0054.036 (0) Ftp chunked upload: 68 % uploaded
+0054.111 (0) Ftp chunked upload: 69.4 % uploaded
+0054.185 (0) Ftp chunked upload: 70.7 % uploaded
+0054.259 (0) Ftp chunked upload: 72 % uploaded
+0054.333 (0) Ftp chunked upload: 73.4 % uploaded
+0054.407 (0) Ftp chunked upload: 74.7 % uploaded
+0054.482 (0) Ftp chunked upload: 76 % uploaded
+0054.559 (0) Ftp chunked upload: 77.4 % uploaded
+0054.633 (0) Ftp chunked upload: 78.7 % uploaded
+0054.708 (0) Ftp chunked upload: 80 % uploaded
+0054.785 (0) Ftp chunked upload: 81.4 % uploaded
+0054.862 (0) Ftp chunked upload: 82.7 % uploaded
+0054.938 (0) Ftp chunked upload: 84.1 % uploaded
+0055.030 (0) Ftp chunked upload: 85.4 % uploaded
+0055.134 (0) Ftp chunked upload: 86.7 % uploaded
+0055.225 (0) Ftp chunked upload: 88.1 % uploaded
+0055.307 (0) Ftp chunked upload: 89.4 % uploaded
+0055.386 (0) Ftp chunked upload: 90.7 % uploaded
+0055.461 (0) Ftp chunked upload: 92.1 % uploaded
+0055.538 (0) Ftp chunked upload: 93.4 % uploaded
+0055.614 (0) Ftp chunked upload: 94.7 % uploaded
+0055.690 (0) Ftp chunked upload: 96.1 % uploaded
+0055.765 (0) Ftp chunked upload: 97.4 % uploaded
+0055.839 (0) Ftp chunked upload: 98.7 % uploaded
+0055.925 (0) FTP: upload attempt successful (153787.1KB in 5.88s)
+0055.926 (0) Recording as successfully uploaded: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip
+0055.937 (0) Deleting local file: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip: OK
+0055.956 (0) Beginning backup of other directories found in the content directory (index: 0)
+0055.957 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0055.957 (0) Looking for candidates to backup in: /Users/yoshinoyasushi/Desktop/dev/corporate/wp-content
+0055.958 (0) finding files: upgrade: skipping: excluded by options
+0055.958 (0) finding files: .DS_Store: adding to list (1)
+0055.958 (0) finding files: index.php: adding to list (2)
+0055.959 (0) finding files: cache: skipping: excluded by options
+0055.959 (0) finding files: plugins: skipping: this is the plugins directory
+0055.959 (0) finding files: ewww: adding to list (3)
+0055.960 (0) finding files: uploads: skipping: this is the uploads directory
+0055.960 (0) finding files: updraft: skipping: this is the updraft directory
+0055.961 (0) finding files: autoptimize_404_handler.php: adding to list (4)
+0055.961 (0) finding files: languages: adding to list (5)
+0055.961 (0) finding files: themes: skipping: this is the themes directory
+0055.983 (0) Total entities for the zip file: 11 directories, 252 files (0 skipped as non-modified), 7.2 MB
+0055.986 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0055.988 (0) Zip: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0056.257 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip.tmp: size is now: 3.40 MB
+0056.263 (0) Creating zip file manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip.list-temp.tmp)
+0056.265 (0) Successfully created zip file manifest (size: 13690)
+0056.336 (0) Created others zip (0) - 3529 KB in 0.4 s (9477.3 KB/s) (sha1: 69b8f67f30342364d7d357e5633b43a9bce0806e, sha256: d5133a719d28fc4ba019db4eb042915aff005078db96760f9d97218a1ca8cd5b)
+0056.338 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0056.338 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-4a07dbedb3b81eab559bcb68c4862e74)
+0056.452 (0) FTP: upload attempt: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip -> ftp://knowledgeholder@knowledgeholder.sakura.ne.jp//home/knowledgeholder/www/BK/newsite/backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip
+0056.587 (0) Ftp chunked upload: 14.6 % uploaded
+0056.618 (0) Ftp chunked upload: 29.2 % uploaded
+0056.640 (0) Ftp chunked upload: 43.9 % uploaded
+0056.660 (0) Ftp chunked upload: 58.5 % uploaded
+0056.698 (0) Ftp chunked upload: 87.6 % uploaded
+0056.729 (0) FTP: upload attempt successful (3529KB in 0.28s)
+0056.730 (0) Recording as successfully uploaded: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip
+0056.733 (0) Deleting local file: backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip: OK
+0056.750 (0) Saving backup status to database (elements: 8)
+0056.758 (0) No database backup (wp) - not part of this run
+0056.760 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip: plugins: This file has already been successfully uploaded
+0056.761 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip: themes: This file has already been successfully uploaded
+0056.763 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip: uploads: This file has already been successfully uploaded
+0056.765 (0) backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip: others: This file has already been successfully uploaded
+0056.765 (0) Saving backup history. Total backup size: 545.4 MB
+0056.772 (0) Resume backup (0a637b3ba7a3, 0): finish run
+0056.774 (0) There were no more files that needed uploading
+0056.775 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=5
+0056.776 (0) Number of backup sets in history: 8; groups (db): 1
+0056.777 (0) Examining (for databases) backup set with group_id=0, nonce=0a637b3ba7a3, datestamp=1684221634 (May 16 2023 07:20:34)
+0056.777 (0) Examining (for databases) backup set with group_id=0, nonce=8deb365747c3, datestamp=1684199542 (May 16 2023 01:12:22)
+0056.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=0c3794c705fb, datestamp=1684039236 (May 14 2023 04:40:36)
+0056.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=cfc9651d8d0f, datestamp=1683984538 (May 13 2023 13:28:58)
+0056.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=758f29a404c2, datestamp=1683867587 (May 12 2023 04:59:47)
+0056.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=f9662cc28322, datestamp=1683780870 (May 11 2023 04:54:30)
+0056.778 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=f9ec77ef3851, datestamp=1683606380 (May 09 2023 04:26:20)
+0056.778 (0) Examining (for databases) backup set with group_id=0, nonce=c4e6c7ef4819, datestamp=1683037804 (May 02 2023 14:30:04)
+0056.778 (0) Number of backup sets in history: 8; groups (files): 1
+0056.779 (0) Examining (for files) backup set with nonce=0a637b3ba7a3, datestamp=1684221634 (May 16 2023 07:20:34)
+0056.779 (0) This backup set is the backup set just made, so will not be deleted.
+0056.779 (0) This backup set is the backup set just made, so will not be deleted.
+0056.779 (0) This backup set is the backup set just made, so will not be deleted.
+0056.779 (0) This backup set is the backup set just made, so will not be deleted.
+0056.779 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0056.780 (0) Examining (for files) backup set with nonce=8deb365747c3, datestamp=1684199542 (May 16 2023 01:12:22)
+0056.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.780 (0) Examining (for files) backup set with nonce=0c3794c705fb, datestamp=1684039236 (May 14 2023 04:40:36)
+0056.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.780 (0) Examining (for files) backup set with nonce=cfc9651d8d0f, datestamp=1683984538 (May 13 2023 13:28:58)
+0056.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.780 (0) Examining (for files) backup set with nonce=758f29a404c2, datestamp=1683867587 (May 12 2023 04:59:47)
+0056.780 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.781 (0) Examining (for files) backup set with nonce=f9662cc28322, datestamp=1683780870 (May 11 2023 04:54:30)
+0056.781 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0056.781 (0) Examining (for files) backup set with nonce=f9ec77ef3851, datestamp=1683606380 (May 09 2023 04:26:20)
+0056.781 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0056.781 (0) Examining (for files) backup set with nonce=c4e6c7ef4819, datestamp=1683037804 (May 02 2023 14:30:04)
+0056.781 (0) plugins: over retain limit (2); will delete this file entity
+0056.781 (0) themes: over retain limit (2); will delete this file entity
+0056.781 (0) uploads: over retain limit (2); will delete this file entity
+0056.781 (0) others: over retain limit (2); will delete this file entity
+0056.781 (0) Delete file: backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-plugins.zip, service=ftp
+0056.782 (0) Delete file: backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-themes.zip, service=ftp
+0056.782 (0) Delete file: backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-uploads.zip, service=ftp
+0056.783 (0) Delete file: backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-others.zip, service=ftp
+0057.053 (0) FTP: delete: succeeded (/home/knowledgeholder/www/BK/newsite/backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-plugins.zip)
+0057.072 (0) FTP: delete: succeeded (/home/knowledgeholder/www/BK/newsite/backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-themes.zip)
+0057.088 (0) FTP: delete: succeeded (/home/knowledgeholder/www/BK/newsite/backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-uploads.zip)
+0057.106 (0) FTP: delete: succeeded (/home/knowledgeholder/www/BK/newsite/backup_2023-05-02-2330_localhost_corporate_c4e6c7ef4819-others.zip)
+0057.128 (0) This backup set is now empty; will remove from history
+0057.129 (0) Deleting log file (log.c4e6c7ef4819.txt)
+0057.135 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0057.149 (0) Decremented the semaphore (f) by 1
+0057.150 (0) Semaphore (f) unlocked
+0057.151 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0057.162 (0) Deleting zip manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-plugins.zip.list.tmp)
+0057.163 (0) Deleting zip manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-themes.zip.list.tmp)
+0057.164 (0) Deleting zip manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-uploads.zip.list.tmp)
+0057.164 (0) Deleting zip manifest (backup_2023-05-16-1620_localhost_corporate_0a637b3ba7a3-others.zip.list.tmp)
+0057.165 (0) No email will/can be sent - the user has not configured an email address.
+0057.165 (0) The backup apparently succeeded and is now complete
